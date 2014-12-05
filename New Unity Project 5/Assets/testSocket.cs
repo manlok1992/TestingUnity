@@ -6,6 +6,7 @@ public class testSocket : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		StartCoroutine(waiting());
+		PlayerPrefs.SetInt("123", 1);
 	}
 
 	IEnumerator waiting() {
