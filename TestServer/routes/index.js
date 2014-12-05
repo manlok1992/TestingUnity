@@ -14,7 +14,7 @@ router.post('/', function(req, res) {
   var userJson = JSON.stringify(user);
   // var data = str2json.convert({id: 1, name: "manlok", message: "JsonTesting"});
   res.send(userJson);
-  res.send("abd");
+  res.send("abd321");
 });
 
 module.exports = router;

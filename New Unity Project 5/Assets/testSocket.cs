@@ -26,7 +26,7 @@ public class testSocket : MonoBehaviour {
 		form.AddField("frameCount", Time.frameCount.ToString());
 		form.AddBinaryData("fileUpload", bytes, "screenShot.png", "image/png");
 		// Upload to a cgi script
-		form.AddField("test", 123);
+		form.AddField("test", 1234324);
 		form.AddField("test2", 1234);
 		WWW w = new WWW("http://127.0.0.1:1111", form);
 		yield return w;
