@@ -62,7 +62,7 @@
      <None Include="Assets\spineData\button.txt" />
      <None Include="Assets\spine-unity\Shaders\SkeletonLit.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/manlok/New Unity Project 5/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/manlok/Desktop/TestingUnity/New Unity Project 5/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
