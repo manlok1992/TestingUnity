@@ -38,10 +38,7 @@ public class testSocket : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-//		if(socket.HandShake != null) {
-//			Debug.Log (socket.HandShake.HadError.ToString());
-//			Debug.Log (socket.HandShake.SID);
-//		}
+
 	}
 }
 	

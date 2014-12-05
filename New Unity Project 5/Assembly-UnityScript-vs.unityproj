@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Resources\iosTouch.js" />
-     <Compile Include="Assets\dsad.js" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\spineData\ui_club_house.txt" />
