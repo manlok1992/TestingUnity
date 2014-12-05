@@ -1,0 +1,160 @@
+
+button.png
+size: 916,1051
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_btnArrow
+  rotate: false
+  xy: 703, 4
+  size: 78, 112
+  orig: 78, 112
+  offset: 0, 0
+  index: -1
+info_btn_close
+  rotate: false
+  xy: 765, 249
+  size: 125, 123
+  orig: 125, 123
+  offset: 0, 0
+  index: -1
+login_btn_logfb_off
+  rotate: false
+  xy: 0, 380
+  size: 456, 123
+  orig: 456, 123
+  offset: 0, 0
+  index: -1
+login_btn_logfb_on
+  rotate: false
+  xy: 0, 257
+  size: 456, 123
+  orig: 456, 123
+  offset: 0, 0
+  index: -1
+login_btn_login_off
+  rotate: false
+  xy: 465, 411
+  size: 309, 212
+  orig: 309, 212
+  offset: 0, 0
+  index: -1
+login_btn_login_on
+  rotate: false
+  xy: 456, 199
+  size: 309, 212
+  orig: 309, 212
+  offset: 0, 0
+  index: -1
+login_btn_signup_off
+  rotate: false
+  xy: 0, 633
+  size: 465, 130
+  orig: 465, 130
+  offset: 0, 0
+  index: -1
+login_btn_signup_on
+  rotate: false
+  xy: 0, 503
+  size: 465, 130
+  orig: 465, 130
+  offset: 0, 0
+  index: -1
+login_logfb_en
+  rotate: false
+  xy: 402, 132
+  size: 345, 67
+  orig: 345, 67
+  offset: 0, 0
+  index: -1
+login_login_en
+  rotate: false
+  xy: 765, 178
+  size: 149, 71
+  orig: 149, 71
+  offset: 0, 0
+  index: -1
+login_signup_en
+  rotate: false
+  xy: 348, 0
+  size: 215, 66
+  orig: 215, 66
+  offset: 0, 0
+  index: -1
+mailbox_btn_close_off
+  rotate: false
+  xy: 507, 765
+  size: 366, 142
+  orig: 366, 142
+  offset: 0, 0
+  index: -1
+mailbox_btn_close_on
+  rotate: false
+  xy: 507, 623
+  size: 366, 142
+  orig: 366, 142
+  offset: 0, 0
+  index: -1
+mailbox_btn_got_en
+  rotate: false
+  xy: 563, 1
+  size: 140, 65
+  orig: 140, 65
+  offset: 0, 0
+  index: -1
+mailbox_btn_takeall_off
+  rotate: false
+  xy: 507, 907
+  size: 402, 144
+  orig: 402, 144
+  offset: 0, 0
+  index: -1
+mailbox_btn_takeall_on
+  rotate: false
+  xy: 0, 113
+  size: 402, 144
+  orig: 402, 144
+  offset: 0, 0
+  index: -1
+mailbox_close_en
+  rotate: false
+  xy: 747, 116
+  size: 169, 62
+  orig: 169, 62
+  offset: 0, 0
+  index: -1
+mailbox_takeall_en
+  rotate: false
+  xy: 402, 66
+  size: 279, 66
+  orig: 279, 66
+  offset: 0, 0
+  index: -1
+setting_btn_logsooff_off
+  rotate: false
+  xy: 0, 907
+  size: 507, 144
+  orig: 507, 144
+  offset: 0, 0
+  index: -1
+setting_btn_logsooff_on
+  rotate: false
+  xy: 0, 763
+  size: 507, 144
+  orig: 507, 144
+  offset: 0, 0
+  index: -1
+setting_logsooff_en
+  rotate: false
+  xy: 0, 35
+  size: 348, 78
+  orig: 348, 78
+  offset: 0, 0
+  index: -1
+setup_btnT-Start
+  rotate: true
+  xy: 774, 372
+  size: 251, 122
+  orig: 251, 122
+  offset: 0, 0
+  index: -1

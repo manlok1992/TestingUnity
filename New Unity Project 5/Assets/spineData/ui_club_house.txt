@@ -1,0 +1,202 @@
+
+ui_club_house.png
+size: 1981,648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_barEN
+  rotate: true
+  xy: 1871, 372
+  size: 276, 42
+  orig: 276, 42
+  offset: 0, 0
+  index: -1
+UI_barM-EN
+  rotate: false
+  xy: 401, 5
+  size: 61, 45
+  orig: 61, 45
+  offset: 0, 0
+  index: -1
+UI_barM-corner
+  rotate: false
+  xy: 1574, 15
+  size: 100, 37
+  orig: 100, 37
+  offset: 0, 0
+  index: -1
+UI_barM-inBx
+  rotate: true
+  xy: 1819, 357
+  size: 291, 52
+  orig: 291, 52
+  offset: 0, 0
+  index: -1
+UI_barM-nameBx
+  rotate: false
+  xy: 873, 229
+  size: 369, 53
+  orig: 369, 53
+  offset: 0, 0
+  index: -1
+UI_barM-outBx
+  rotate: false
+  xy: 873, 282
+  size: 355, 80
+  orig: 355, 80
+  offset: 0, 0
+  index: -1
+UI_barM-plus
+  rotate: false
+  xy: 1913, 509
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+UI_barTop
+  rotate: false
+  xy: 351, 230
+  size: 522, 132
+  orig: 522, 132
+  offset: 0, 0
+  index: -1
+btn_management_off
+  rotate: false
+  xy: 1066, 29
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+btn_management_on
+  rotate: false
+  xy: 1266, 162
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+btn_market_off
+  rotate: false
+  xy: 626, 10
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+btn_market_on
+  rotate: false
+  xy: 846, 9
+  size: 220, 220
+  orig: 220, 220
+  offset: 0, 0
+  index: -1
+btn_playmatch_off
+  rotate: false
+  xy: 1503, 355
+  size: 316, 293
+  orig: 316, 293
+  offset: 0, 0
+  index: -1
+btn_playmatch_on
+  rotate: false
+  xy: 0, 33
+  size: 351, 329
+  orig: 351, 329
+  offset: 0, 0
+  index: -1
+btn_practice_off
+  rotate: false
+  xy: 1466, 155
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+btn_practice_on
+  rotate: false
+  xy: 1666, 155
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+btn_setting_off
+  rotate: false
+  xy: 1266, 8
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+btn_setting_on
+  rotate: false
+  xy: 1420, 1
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+front_bg
+  rotate: false
+  xy: 0, 362
+  size: 1503, 286
+  orig: 1503, 286
+  offset: 0, 0
+  index: -1
+front_stand
+  rotate: true
+  xy: 1866, 187
+  size: 170, 97
+  orig: 170, 97
+  offset: 0, 0
+  index: -1
+front_standLeader
+  rotate: false
+  xy: 1574, 52
+  size: 176, 103
+  orig: 176, 103
+  offset: 0, 0
+  index: -1
+icon_notice
+  rotate: false
+  xy: 1913, 444
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+lock
+  rotate: true
+  xy: 1750, 54
+  size: 101, 120
+  orig: 101, 120
+  offset: 0, 0
+  index: -1
+mail
+  rotate: true
+  xy: 1870, 60
+  size: 127, 89
+  orig: 127, 89
+  offset: 0, 0
+  index: -1
+num_9
+  rotate: false
+  xy: 351, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+shop_icon_coins
+  rotate: false
+  xy: 1913, 376
+  size: 61, 68
+  orig: 61, 68
+  offset: 0, 0
+  index: -1
+shop_icon_money
+  rotate: false
+  xy: 1913, 577
+  size: 68, 71
+  orig: 68, 71
+  offset: 0, 0
+  index: -1
+team_slot1
+  rotate: true
+  xy: 351, 50
+  size: 180, 275
+  orig: 180, 275
+  offset: 0, 0
+  index: -1

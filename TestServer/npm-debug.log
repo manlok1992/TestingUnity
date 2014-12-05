@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'socket.io@0.6.26' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json sys@0.0.1 No repository field.
+5 warn package.json sys@0.0.1 No README data
+6 warn package.json http@0.0.0 http is also the name of a node core module.
+7 warn package.json http@0.0.0 No description
+8 warn package.json http@0.0.0 No repository field.
+9 warn package.json http@0.0.0 No README data
+10 warn package.json util@0.10.3 util is also the name of a node core module.
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'socket.io@0.6.26', null ]
+13 verbose cache add name=undefined spec="socket.io@0.6.26" args=["socket.io@0.6.26",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'socket.io@0.6.26',
+14 verbose parsed url   path: 'socket.io@0.6.26',
+14 verbose parsed url   href: 'socket.io@0.6.26' }
+15 verbose cache add name="socket.io" spec="0.6.26" args=["socket.io","0.6.26"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '0.6.26',
+16 verbose parsed url   path: '0.6.26',
+16 verbose parsed url   href: '0.6.26' }
+17 verbose addNamed [ 'socket.io', '0.6.26' ]
+18 verbose addNamed [ '0.6.26', '0.6.26' ]
+19 silly lockFile ec1b8f48-socket-io-0-6-26 socket.io@0.6.26
+20 verbose lock socket.io@0.6.26 /Users/manlok/.npm/ec1b8f48-socket-io-0-6-26.lock
+21 verbose request where is /socket.io
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 9e0a94f491142a15
+24 verbose url raw /socket.io
+25 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+26 verbose url resolved https://registry.npmjs.org/socket.io
+27 verbose request where is https://registry.npmjs.org/socket.io
+28 info trying registry request attempt 1 at 18:24:10
+29 verbose etag "4MF62BJVIZA6EDD0D2E4TQYSS"
+30 http GET https://registry.npmjs.org/socket.io
+31 http 304 https://registry.npmjs.org/socket.io
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Thu, 04 Dec 2014 10:24:10 GMT',
+32 silly registry.get     server: 'Apache',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'last-modified': 'Thu, 04 Dec 2014 10:24:11 GMT',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     etag: '"4MF62BJVIZA6EDD0D2E4TQYSS"',
+32 silly registry.get     age: '0',
+32 silly registry.get     'x-served-by': 'cache-hk93-HKG',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '1',
+32 silly registry.get     'x-timer': 'S1417688650.454098,VS0,VE757',
+32 silly registry.get     vary: 'Accept',
+32 silly registry.get     'content-length': '0',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 verbose etag https://registry.npmjs.org/socket.io from cache
+34 silly lockFile ec1b8f48-socket-io-0-6-26 socket.io@0.6.26
+35 silly lockFile ec1b8f48-socket-io-0-6-26 socket.io@0.6.26
+36 error Error: version not found: socket.io@0.6.26
+36 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:125:12
+36 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+36 error     at Object.oncomplete (fs.js:107:15)
+37 error If you need help, you may report this *entire* log,
+37 error including the npm and node versions, at:
+37 error     <http://github.com/npm/npm/issues>
+38 error System Darwin 13.4.0
+39 error command "node" "/usr/local/bin/npm" "install" "socket.io@0.6.26"
+40 error cwd /Users/manlok/Desktop/TestServer
+41 error node -v v0.10.33
+42 error npm -v 1.4.28
+43 verbose exit [ 1, true ]

@@ -1,0 +1,1227 @@
+{
+"skeleton": { "hash": "mIL4XeZWpztsh2aobePwJKMsLTw", "spine": "2.0.22", "width": 766.43, "height": 565.34 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "btnArrowL", "parent": "root", "x": -630, "y": 40 },
+	{ "name": "btnArrowR", "parent": "root", "x": 630, "y": 40, "scaleX": -1 },
+	{ "name": "btn_close", "parent": "root", "x": 628.66, "y": 362.14 },
+	{ "name": "login_btn_logfb", "parent": "root" },
+	{ "name": "login_btn_login", "parent": "root" },
+	{ "name": "login_btn_signup", "parent": "root" },
+	{ "name": "login_logfb_en", "parent": "root" },
+	{ "name": "login_login_en", "parent": "root" },
+	{ "name": "login_signup_en", "parent": "root" },
+	{ "name": "mailbox_btn_close", "parent": "root", "x": 1.91 },
+	{ "name": "mailbox_btn_got_en1", "parent": "root" },
+	{ "name": "mailbox_btn_got_en2", "parent": "root" },
+	{ "name": "mailbox_btn_got_en3", "parent": "root" },
+	{ "name": "mailbox_btn_got_en4", "parent": "root" },
+	{ "name": "mailbox_btn_got_en5", "parent": "root" },
+	{ "name": "mailbox_btn_takeall", "parent": "root" },
+	{ "name": "mailbox_close_en", "parent": "root" },
+	{ "name": "mailbox_takeall_en", "parent": "root" },
+	{ "name": "setting_btn_logsooff", "parent": "root" },
+	{ "name": "setting_logsooff_en", "parent": "root" },
+	{ "name": "setup_btnT-Start", "parent": "root" }
+],
+"slots": [
+	{ "name": "login_btn_signup_off", "bone": "login_btn_signup", "attachment": "login_btn_signup_off" },
+	{ "name": "login_btn_signup_on", "bone": "login_btn_signup", "attachment": "login_btn_signup_on" },
+	{ "name": "login_btn_login_off", "bone": "login_btn_login", "attachment": "login_btn_login_off" },
+	{ "name": "login_btn_login_on", "bone": "login_btn_login", "attachment": "login_btn_login_on" },
+	{ "name": "setup_btnT-Start", "bone": "setup_btnT-Start", "attachment": "setup_btnT-Start" },
+	{ "name": "login_btn_logfb_off", "bone": "login_btn_logfb", "attachment": "login_btn_logfb_off" },
+	{ "name": "info_btn_close", "bone": "btn_close", "attachment": "info_btn_close" },
+	{ "name": "btnArrowR", "bone": "btnArrowR", "attachment": "UI_btnArrow" },
+	{ "name": "btnArrowL", "bone": "btnArrowL", "attachment": "UI_btnArrow" },
+	{ "name": "login_btn_logfb_on", "bone": "login_btn_logfb", "attachment": "login_btn_logfb_on" },
+	{ "name": "login_logfb_en", "bone": "login_logfb_en", "attachment": "login_logfb_en" },
+	{ "name": "login_login_en", "bone": "login_login_en", "attachment": "login_login_en" },
+	{ "name": "login_signup_en", "bone": "login_signup_en", "attachment": "login_signup_en" },
+	{ "name": "mailbox_btn_got_en1", "bone": "mailbox_btn_got_en1", "attachment": "mailbox_btn_got_en" },
+	{ "name": "mailbox_btn_got_en2", "bone": "mailbox_btn_got_en2", "attachment": "mailbox_btn_got_en" },
+	{ "name": "mailbox_btn_got_en3", "bone": "mailbox_btn_got_en3", "attachment": "mailbox_btn_got_en" },
+	{ "name": "mailbox_btn_got_en4", "bone": "mailbox_btn_got_en4", "attachment": "mailbox_btn_got_en" },
+	{ "name": "mailbox_btn_got_en5", "bone": "mailbox_btn_got_en5", "attachment": "mailbox_btn_got_en" },
+	{ "name": "mailbox_btn_takeall_off", "bone": "mailbox_btn_takeall", "attachment": "mailbox_btn_takeall_off" },
+	{ "name": "mailbox_btn_takeall_on", "bone": "mailbox_btn_takeall", "attachment": "mailbox_btn_takeall_on" },
+	{ "name": "mailbox_btn_close_off", "bone": "mailbox_btn_close", "attachment": "mailbox_btn_close_off" },
+	{ "name": "mailbox_btn_close_on", "bone": "mailbox_btn_close", "attachment": "mailbox_btn_close_on" },
+	{ "name": "mailbox_close_en", "bone": "mailbox_close_en", "attachment": "mailbox_close_en" },
+	{ "name": "mailbox_takeall_en", "bone": "mailbox_takeall_en", "attachment": "mailbox_takeall_en" },
+	{ "name": "setting_btn_logsooff_off", "bone": "setting_btn_logsooff", "attachment": "setting_btn_logsooff_off" },
+	{ "name": "setting_btn_logsooff_on", "bone": "setting_btn_logsooff", "attachment": "setting_btn_logsooff_on" },
+	{ "name": "setting_logsooff_en", "bone": "setting_logsooff_en", "attachment": "setting_logsooff_en" }
+],
+"skins": {
+	"default": {
+		"btnArrowL": {
+			"UI_btnArrow": { "width": 78, "height": 112 }
+		},
+		"btnArrowR": {
+			"UI_btnArrow": { "width": 78, "height": 112 }
+		},
+		"info_btn_close": {
+			"info_btn_close": { "width": 125, "height": 123 }
+		},
+		"login_btn_logfb_off": {
+			"login_btn_logfb_off": { "width": 456, "height": 123 }
+		},
+		"login_btn_logfb_on": {
+			"login_btn_logfb_on": { "width": 456, "height": 123 }
+		},
+		"login_btn_login_off": {
+			"login_btn_login_off": { "width": 309, "height": 212 }
+		},
+		"login_btn_login_on": {
+			"login_btn_login_on": { "width": 309, "height": 212 }
+		},
+		"login_btn_signup_off": {
+			"login_btn_signup_off": { "width": 465, "height": 130 }
+		},
+		"login_btn_signup_on": {
+			"login_btn_signup_on": { "width": 465, "height": 130 }
+		},
+		"login_logfb_en": {
+			"login_logfb_en": { "width": 345, "height": 67 }
+		},
+		"login_login_en": {
+			"login_login_en": { "width": 149, "height": 71 }
+		},
+		"login_signup_en": {
+			"login_signup_en": { "width": 215, "height": 66 }
+		},
+		"mailbox_btn_close_off": {
+			"mailbox_btn_close_off": { "width": 366, "height": 142 }
+		},
+		"mailbox_btn_close_on": {
+			"mailbox_btn_close_on": { "width": 366, "height": 142 }
+		},
+		"mailbox_btn_got_en1": {
+			"mailbox_btn_got_en": { "width": 140, "height": 65 }
+		},
+		"mailbox_btn_got_en2": {
+			"mailbox_btn_got_en": { "width": 140, "height": 65 }
+		},
+		"mailbox_btn_got_en3": {
+			"mailbox_btn_got_en": { "width": 140, "height": 65 }
+		},
+		"mailbox_btn_got_en4": {
+			"mailbox_btn_got_en": { "width": 140, "height": 65 }
+		},
+		"mailbox_btn_got_en5": {
+			"mailbox_btn_got_en": { "width": 140, "height": 65 }
+		},
+		"mailbox_btn_takeall_off": {
+			"mailbox_btn_takeall_off": { "width": 402, "height": 144 }
+		},
+		"mailbox_btn_takeall_on": {
+			"mailbox_btn_takeall_on": { "width": 402, "height": 144 }
+		},
+		"mailbox_close_en": {
+			"mailbox_close_en": { "width": 169, "height": 62 }
+		},
+		"mailbox_takeall_en": {
+			"mailbox_takeall_en": { "width": 279, "height": 66 }
+		},
+		"setting_btn_logsooff_off": {
+			"setting_btn_logsooff_off": { "width": 507, "height": 144 }
+		},
+		"setting_btn_logsooff_on": {
+			"setting_btn_logsooff_on": { "width": 507, "height": 144 }
+		},
+		"setting_logsooff_en": {
+			"setting_logsooff_en": { "x": 1.91, "width": 348, "height": 78 }
+		},
+		"setup_btnT-Start": {
+			"setup_btnT-Start": { "width": 251, "height": 122 }
+		}
+	}
+},
+"animations": {
+	"ui_campaign": {
+		"slots": {
+			"login_btn_logfb_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_logfb_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_logfb_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_login_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_signup_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_close_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_takeall_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_logsooff_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"btn_close": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1.2, "y": 1.2 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"ui_login": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"info_btn_close": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_close_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_close_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_takeall_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_logsooff_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"login_login_en": {
+				"translate": [
+					{ "time": 0, "x": 438.14, "y": 82.76 }
+				]
+			},
+			"login_signup_en": {
+				"translate": [
+					{ "time": 0, "x": -292.08, "y": -224.68 }
+				]
+			},
+			"login_logfb_en": {
+				"translate": [
+					{ "time": 0, "x": 284.39, "y": -224.68 }
+				]
+			},
+			"login_btn_login": {
+				"translate": [
+					{ "time": 0, "x": 438.14, "y": 82.77 }
+				]
+			},
+			"login_btn_logfb": {
+				"translate": [
+					{ "time": 0, "x": 284.39, "y": -224.68 }
+				]
+			},
+			"login_btn_signup": {
+				"translate": [
+					{ "time": 0, "x": -292.09, "y": -224.68 }
+				]
+			}
+		}
+	},
+	"ui_mail": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_logfb_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_logfb_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_login_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_signup_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_close_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_takeall_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_logsooff_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"btn_close": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1.2, "y": 1.2 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"ui_mailbox_content": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"info_btn_close": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_logfb_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_logfb_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_login_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_signup_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_logsooff_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"mailbox_btn_close": {
+				"translate": [
+					{ "time": 0, "x": 212.75, "y": -393.51 }
+				]
+			},
+			"mailbox_btn_takeall": {
+				"translate": [
+					{ "time": 0, "x": -210.82, "y": -393.51 }
+				]
+			},
+			"mailbox_takeall_en": {
+				"translate": [
+					{ "time": 0, "x": -210.34, "y": -393.54 }
+				]
+			},
+			"mailbox_close_en": {
+				"translate": [
+					{ "time": 0, "x": 215.04, "y": -393.47 }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": -357.97, "y": -233.89 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": -179.29, "y": -233.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -234.11 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 177.25, "y": -233.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 354.61, "y": -234.41 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 3.43 }
+				]
+			}
+		}
+	},
+	"ui_mailbox_content2": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"info_btn_close": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_logfb_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_logfb_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_login_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_signup_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_takeall_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setting_logsooff_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"mailbox_btn_close": {
+				"translate": [
+					{ "time": 0, "x": -1.91, "y": -388.34 }
+				]
+			},
+			"mailbox_btn_takeall": {
+				"translate": [
+					{ "time": 0, "x": -210.82, "y": -383.18 }
+				]
+			},
+			"mailbox_takeall_en": {
+				"translate": [
+					{ "time": 0, "x": -210.34, "y": -383.21 }
+				]
+			},
+			"mailbox_close_en": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -388.3 }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": -357.97, "y": -230.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": -179.29, "y": -229.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -230.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 177.25, "y": -229.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"rotate": [
+					{ "time": 0, "angle": 18.66 }
+				],
+				"translate": [
+					{ "time": 0, "x": 354.61, "y": -230.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1, "x": 1.3, "y": 1.3 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"ui_settings": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"info_btn_close": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_logfb_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_login_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_btn_signup_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_logfb_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_login_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"login_signup_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_close_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_close_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"mailbox_takeall_en": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"setting_btn_logsooff": {
+				"translate": [
+					{ "time": 0, "x": 31.54, "y": -195.46 }
+				]
+			},
+			"setting_logsooff_en": {
+				"translate": [
+					{ "time": 0, "x": 38.17, "y": -197.13 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 68 }
+				]
+			}
+		}
+	},
+	"ui_setup": {
+		"slots": {
+			"btnArrowL": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"btnArrowR": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"info_btn_close": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_off": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_logfb_on": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_login_off": {
+				"attachment": [
+					{ "time": 0, "name": "login_btn_login_off" }
+				]
+			},
+			"login_btn_login_on": {
+				"attachment": [
+					{ "time": 0, "name": "login_btn_login_on" }
+				]
+			},
+			"login_btn_signup_off": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_btn_signup_on": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_logfb_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_login_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"login_signup_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_close_off": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_close_on": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_got_en1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_got_en2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_got_en3": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_got_en4": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_got_en5": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_takeall_off": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_btn_takeall_on": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_close_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"mailbox_takeall_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"setting_btn_logsooff_off": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"setting_btn_logsooff_on": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"setting_logsooff_en": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"setup_btnT-Start": {
+				"attachment": [
+					{ "time": 0, "name": "setup_btnT-Start" }
+				]
+			}
+		},
+		"bones": {
+			"login_btn_login": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -220 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.159, "y": 0.849 }
+				]
+			},
+			"setup_btnT-Start": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -223.34 }
+				]
+			}
+		}
+	}
+}
+}
