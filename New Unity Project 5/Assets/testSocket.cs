@@ -12,7 +12,8 @@ public class testSocket : MonoBehaviour {
 	IEnumerator waiting() {
 		JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
 		obj.AddField("id", 1);
-		obj.AddField("type", "get_team");
+		obj.AddField("type", "getMonthlyBonusList");
+//		obj.AddField("getUsingBgInfo", "getUsingBgInfo");
 
 		
 		JSONObject all = new JSONObject(JSONObject.Type.OBJECT);
@@ -53,10 +54,16 @@ public class testSocket : MonoBehaviour {
 
 		var postHeader = new Hashtable();
 		
-		postHeader.Add("Content-Type", "text/json");
-		postHeader.Add("Content-Length", all.ToString().Length);
+		postHeader.Add("Content-Type", "application/json");
+		postHeader.Add("Cookie", "Our seession cookie");
 
+//		postHeader["id"] = 1;
+//		postHeader["type"] = "buyPlayer";
+
+		string temp = "{\"id\":1, \"type\":\"get_team\"}";
+		
 		byte[] bytes = System.Text.Encoding.UTF8.GetBytes(all.ToString());
+//		byte[] bytes = System.Text.Encoding.UTF8.GetBytes(temp);
 		WWW w = new WWW("http://169.254.31.4:3001/api/soccer/batch_test?token=c6696460-7393-11e4-a057-f95e2fa260d1", bytes, postHeader);
 		yield return w;
 		if (w.error != null)
