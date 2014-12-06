@@ -14,7 +14,7 @@ var formidable = require('formidable'),
     var     multer  = require('multer')
     var io = require('socket.io');
     var url = require('url');
-
+var color = require('colors');
 // http.createServer(function(req, res) {
 //   if (req.url == '/upload' && req.method.toLowerCase() == 'post') {
 //     // parse a file upload
@@ -112,7 +112,7 @@ app.use(function(err, req, res, next) {
 
 
 app.listen(1111, function() {
-    console.log('HTTP server listening on port: 1111');
+    console.log('HTTP server listening on port:' +' 1111'.green);
 });
 
 module.exports = app;

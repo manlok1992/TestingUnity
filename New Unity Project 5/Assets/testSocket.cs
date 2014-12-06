@@ -2,60 +2,85 @@
 using System.Collections;
 using System.IO;
 using System;
+using SimpleJSON;
 public class testSocket : MonoBehaviour {
-	string arr;
 	// Use this for initialization
-	SimpleJSON.JSONNode node;
 	void Start() {
 		StartCoroutine(waiting());
-		PlayerPrefs.SetInt("123", 1);
 	}
 
 	IEnumerator waiting() {
-			// We should only read the screen after all rendering is complete
-		yield return new WaitForEndOfFrame();
-//		// Create a texture the size of the screen, RGB24 format
-		int width = Screen.width;
-		int height = Screen.height;
-		Texture2D tex = new Texture2D( width, height, TextureFormat.RGB24, false );
-//		// Read screen contents into the texture
-		tex.ReadPixels( new Rect(0, 0, width, height), 0, 0 );
-		tex.Apply();
-		// Encode texture into PNG
-		byte[] bytes = tex.EncodeToJPG();
-		Destroy( tex );
+		JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
+		obj.AddField("id", 1);
+		obj.AddField("type", "get_team");
+
+		
+		JSONObject all = new JSONObject(JSONObject.Type.OBJECT);
+		all.Add(obj);
+		
+		Debug.Log (all.ToString());
+		Debug.Log (all.ToString().Length);
+//		SimpleJSON.JSONNode node ;
+//		int width, height;
+//		width = UnityEngine.Random.Range(0,Screen.width);
+//		height = UnityEngine.Random.Range(0,Screen.height);
+//		Debug.Log ("height: "+height);
+//		Debug.Log ("width: "+width);
+//			// We should only read the screen after all rendering is complete
+//		yield return new WaitForEndOfFrame();
+////		// Create a texture the size of the screen, RGB24 format
+//		Texture2D tex = new Texture2D( width, height, TextureFormat.RGB24, false );
+//////		// Read screen contents into the texture
+//		tex.ReadPixels( new Rect(0, 0, width, height));
+//		tex.Apply();
+//		// Encode texture into PNG
+//		byte[] bytes = tex.EncodeToJPG();
+//		Destroy( tex );
 //		// Create a Web Form
 		WWWForm form = new WWWForm();
-		form.AddField("frameCount", Time.frameCount.ToString());
-		form.AddBinaryData("fileUpload", bytes, "screenShot.jpg", "image/jpg");
+//		form.AddField("frameCount", Time.frameCount.ToString());
+//		form.AddBinaryData("fileUpload", bytes, "screenShot.jpg", "image/jpg");
 		// Upload to a cgi script
-		form.AddField("test", 1234324);
-		form.AddField("test2", 1234);
-		WWW w = new WWW("http://169.254.31.4:1111", form);
+		
+//		SimpleJSON.JSONNode each ;
+//		each["id"] = "1";
+//		each["type"] = "get_team";
+
+//		node.Add(each);
+//		Debug.Log (node.ToString());
+//		form.AddField("test", 1234324);
+//		form.AddField("test2", 1234);
+
+		var postHeader = new Hashtable();
+		
+		postHeader.Add("Content-Type", "text/json");
+		postHeader.Add("Content-Length", all.ToString().Length);
+
+		byte[] bytes = System.Text.Encoding.UTF8.GetBytes(all.ToString());
+		WWW w = new WWW("http://169.254.31.4:3001/api/soccer/batch_test?token=c6696460-7393-11e4-a057-f95e2fa260d1", bytes, postHeader);
 		yield return w;
 		if (w.error != null)
 			Debug.Log("Error: "+w.error);
 		else {
-			arr = w.text;
 			Debug.Log (w.text);
-			var n = SimpleJSON.JSONNode.Parse(w.text);
-			Debug.Log (n);
-			Debug.Log (n.Count);
-			for(int i = 0; i < n.Count; i++) {
-				string temp = n[i]["id"].ToString();
-				string temp1 = n[i]["name"].ToString();
-				string temp2 = n[i]["message"].ToString();
-				Debug.Log ("get data id: "+temp);
-				Debug.Log ("get data name: "+temp1);
-				Debug.Log ("get data message: "+temp2);
-			}
+//			var n = SimpleJSON.JSONNode.Parse(w.text);
+//			Debug.Log (n);
+//			Debug.Log (n.Count);
+//			for(int i = 0; i < n.Count; i++) {
+//				string temp = n[i]["id"].ToString();
+//				string temp1 = n[i]["name"].ToString();
+//				string temp2 = n[i]["message"].ToString();
+//				Debug.Log ("get data id: "+temp);
+//				Debug.Log ("get data name: "+temp1);
+//				Debug.Log ("get data message: "+temp2);
+//			}
 
 		}
 	}
 
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("get: "+PlayerPrefs.GetInt("123"));
+
 	}
 }
 	
