@@ -11,13 +11,17 @@ public class testSocket : MonoBehaviour {
 
 	IEnumerator waiting() {
 		JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
+		JSONObject obj1 = new JSONObject(JSONObject.Type.OBJECT);
 		obj.AddField("id", 1);
-		obj.AddField("type", "getMonthlyBonusList");
-//		obj.AddField("getUsingBgInfo", "getUsingBgInfo");
+		obj.AddField("type", "get_team");
+		obj1.AddField("id", 2);
+		obj1.AddField("type", "getUsingBackground");
+		obj1.AddField("getUsingBgInfo", "getUsingBgInfo");
+		obj.AddField("getUsingBgInfo", "getUsingBgInfo");
 
-		
 		JSONObject all = new JSONObject(JSONObject.Type.OBJECT);
 		all.Add(obj);
+		all.Add(obj1);
 		
 		Debug.Log (all.ToString());
 		Debug.Log (all.ToString().Length);
@@ -56,11 +60,6 @@ public class testSocket : MonoBehaviour {
 		
 		postHeader.Add("Content-Type", "application/json");
 		postHeader.Add("Cookie", "Our seession cookie");
-
-//		postHeader["id"] = 1;
-//		postHeader["type"] = "buyPlayer";
-
-		string temp = "{\"id\":1, \"type\":\"get_team\"}";
 		
 		byte[] bytes = System.Text.Encoding.UTF8.GetBytes(all.ToString());
 //		byte[] bytes = System.Text.Encoding.UTF8.GetBytes(temp);
@@ -70,9 +69,17 @@ public class testSocket : MonoBehaviour {
 			Debug.Log("Error: "+w.error);
 		else {
 			Debug.Log (w.text);
-//			var n = SimpleJSON.JSONNode.Parse(w.text);
+			var n = SimpleJSON.JSONNode.Parse(w.text);
 //			Debug.Log (n);
-//			Debug.Log (n.Count);
+			//			Debug.Log (n.Count);
+			var temp1 = SimpleJSON.JSONNode.Parse(n["data"][0]["team"][0]["LevelData"].ToString());
+			var temp2 = SimpleJSON.JSONNode.Parse(n["data"][1].ToString());
+//			var temp2 = SimpleJSON.JSONNode.Parse(temp1.ToString());
+			//			Debug.Log (temo2);
+			string str1 = temp1["Level_Id"].ToString();
+			string str2 = temp2["Filename"].ToString();
+			Debug.Log (str1);
+			Debug.Log (str2);
 //			for(int i = 0; i < n.Count; i++) {
 //				string temp = n[i]["id"].ToString();
 //				string temp1 = n[i]["name"].ToString();
