@@ -4,15 +4,15 @@ using System.IO;
 using System;
 using SimpleJSON;
 
-namespace test {
-	public class testSocket : MonoBehaviour {
+namespace Server {
+	public class ServerCall : MonoBehaviour {
 		// Use this for initialization
 		public JSONObject messageSend;
-		public static testSocket m_instance = null;
+		public static ServerCall m_instance = null;
 		
 //		testSocket() {
 //		}
-		public testSocket() {
+		public ServerCall() {
 			messageSend = new JSONObject(JSONObject.Type.OBJECT);
 		}
 
@@ -20,21 +20,30 @@ namespace test {
 			if(m_instance != null) {
 				return;
 			}
-			m_instance = new testSocket();
+			m_instance = new ServerCall();
 		}
 
-		public static testSocket getInstance() 
+		public static ServerCall getInstance() 
 		{
 			return m_instance;
 		}
 		void Start() {
 //			StartCoroutine(sendServer());
 		}
+
+		string getID() {
+			long temp;
+
+			temp = DateTime.Now.Ticks;
+
+			string str = temp.ToString()+"_"+UnityEngine.Random.Range(0, int.MaxValue).ToString()+"_"+messageSend.Count.ToString();
+
+			return str;
+		}
 		
 		public void requestTeam() {
 			JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
-			int rand = UnityEngine.Random.Range(0, int.MaxValue);
-			obj.AddField("id", rand.ToString());
+			obj.AddField("id", getID());
 			obj.AddField("type", "get_team");
 
 			messageSend.Add(obj);
@@ -42,8 +51,7 @@ namespace test {
 		
 		public void getUsingBgInfo() {
 			JSONObject obj = new JSONObject(JSONObject.Type.OBJECT);
-			int rand = UnityEngine.Random.Range(0, int.MaxValue);
-			obj.AddField("id", rand.ToString());
+			obj.AddField("id", getID());
 			obj.AddField("type", "getUsingBackground");
 			obj.AddField("getUsingBgInfo", "getUsingBgInfo");
 			
@@ -51,7 +59,6 @@ namespace test {
 		}
 		
 		public IEnumerator sendServer() {
-			//		SimpleJSON.JSONNode node ;
 			//		int width, height;
 			//		width = UnityEngine.Random.Range(0,Screen.width);
 			//		height = UnityEngine.Random.Range(0,Screen.height);
@@ -68,8 +75,8 @@ namespace test {
 			//		byte[] bytes = tex.EncodeToJPG();
 			//		Destroy( tex );
 			//		// Create a Web Form
-			WWWForm form = new WWWForm();
-			//		form.AddField("frameCount", Time.frameCount.ToString());
+//			WWWForm form = new WWWForm();
+//					form.AddField("frameCount", Time.frameCount.ToString());
 			//		form.AddBinaryData("fileUpload", bytes, "screenShot.jpg", "image/jpg");
 			// Upload to a cgi script
 			
@@ -90,14 +97,17 @@ namespace test {
 				var n = SimpleJSON.JSONNode.Parse(w.text);
 				//			Debug.Log (n);
 				//			Debug.Log (n.Count);
-				var temp1 = SimpleJSON.JSONNode.Parse(n["data"][0]["team"][0]["LevelData"].ToString());
 				var temp2 = SimpleJSON.JSONNode.Parse(n["data"][1].ToString());
+				string str2 = temp2["Filename"].ToString();
+				Debug.Log (str2);
 				//			var temp2 = SimpleJSON.JSONNode.Parse(temp1.ToString());
 				//			Debug.Log (temo2);
-				string str1 = temp1["Level_Id"].ToString();
-				string str2 = temp2["Filename"].ToString();
-				Debug.Log (str1);
-				Debug.Log (str2);
+
+				for(int i = 0; i < n["data"][0]["team"].Count; i++) {
+					var temp1 = SimpleJSON.JSONNode.Parse(n["data"][0]["team"][i]["LevelData"].ToString());
+					string str1 = temp1["Level_Id"].ToString();
+					Debug.Log (str1);
+				}
 				//			for(int i = 0; i < n.Count; i++) {
 				//				string temp = n[i]["id"].ToString();
 				//				string temp1 = n[i]["name"].ToString();

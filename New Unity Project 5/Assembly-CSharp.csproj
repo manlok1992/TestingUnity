@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\JSONObject.cs" />
+     <Compile Include="Assets\ServerCall.cs" />
      <Compile Include="Assets\SimpleJSON.cs" />
      <Compile Include="Assets\dasad.cs" />
      <Compile Include="Assets\spine-csharp\Animation.cs" />
@@ -88,7 +89,6 @@
      <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtilityGroundConstraint.cs" />
      <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtilityKinematicShadow.cs" />
      <Compile Include="Assets\spine-unity\SkeletonUtility\SkeletonUtilitySubmeshRenderer.cs" />
-     <Compile Include="Assets\testSocket.cs" />
      <None Include="Assets\spine-unity\Shaders\HiddenPass.shader" />
      <None Include="Assets\spine-unity\Shaders\Bones.shader" />
      <None Include="Assets\spineData\ui_club_house.txt" />
