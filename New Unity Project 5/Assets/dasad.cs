@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Spine;
+using test;
 
 public class dasad : MonoBehaviour {
 	public SkeletonDataAsset skeletonDataAsset;
@@ -29,6 +30,8 @@ public class dasad : MonoBehaviour {
 		scale = sx > sy ? sx : sy;
 		width = att.width*scale;
 		height = att.height*scale;
+		
+		testSocket.init();
 	}
 
 	// Update is called once per frame
@@ -75,7 +78,12 @@ public class dasad : MonoBehaviour {
 		return new Rect(x,y,width,height);
 	}
 
-//	void OnMouseDown() {
+	void OnMouseDown()
+	{
+		testSocket.getInstance().messageSend.Clear();
+		testSocket.getInstance().requestTeam();
+		testSocket.getInstance().getUsingBgInfo();
+		StartCoroutine(testSocket.getInstance().sendServer());
 //		if(Input.GetMouseButton(0)) {
 //			Rect rect = touchRect("team_slot1", "team_slot1");
 //			if(rect.Contains(Input.mousePosition)) {
@@ -108,7 +116,7 @@ public class dasad : MonoBehaviour {
 //				return;
 //			}
 //		}
-//	}
+	}
 }
 
 
